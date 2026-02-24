@@ -7,13 +7,13 @@ body, html {
 }
 
 .navbar {
-    background-color: #111;
+    background-color: #1a1a1a;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    padding: 20px 5%;
-    height: 50px;
+    padding: 20px 15%;
+    height: 65px;
 }
 
 .nav-left, .nav-right {
@@ -30,7 +30,7 @@ body, html {
 }
 
 .nav-logo img {
-    width: 150px;
+    width: 170px;
     display: block;
 }
 
@@ -75,14 +75,12 @@ body, html {
 }
 
 .hero {
-    background-image: url('hero-bg.jpg'); 
     background-size: cover;
-    background-position: center;
     height: 500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10%;
+    padding: 0 13%;
     position: relative;
     background-color: #e6e6e6;
 }
@@ -94,7 +92,7 @@ body, html {
 .hero h1 {
     font-size: 64px;
     font-weight: 400;
-    color: #444;
+    color: rgb(41, 41, 41);
     margin: 0 0 10px 0;
     line-height: 1.1;
 }
@@ -102,7 +100,7 @@ body, html {
 .hero p {
     font-size: 18px;
     font-weight: 500;
-    color: #444;
+    color: rgb(41, 41, 41);
     margin-bottom: 30px;
 }
 
@@ -118,7 +116,7 @@ body, html {
 
 .hero-btn:hover { background-color: #24459a; }
 .hero-device {
-    max-width: 500px;
+    max-width: 550px;
 }
 
 .hero-device img {
