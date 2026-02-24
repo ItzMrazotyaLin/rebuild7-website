@@ -1,0 +1,128 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+    color: #333;
+    background-color: #f2f2f2;
+}
+
+.navbar {
+    background-color: #111;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 20px 5%;
+    height: 50px;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav-logo img {
+    width: 150px;
+    display: block;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-left: 5px;
+    line-height: 1;
+}
+
+.nav-right a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-left: 5px;
+    line-height: 1;
+}
+
+.nav-links a:hover { color: white; }
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-gray-line {
+    height: 10px;
+    background-color: #3d3d3e;
+}
+
+.hero {
+    background-image: url('hero-bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    position: relative;
+    background-color: #e6e6e6;
+}
+
+.hero-content {
+    max-width: 400px;
+}
+
+.hero h1 {
+    font-size: 64px;
+    font-weight: 400;
+    color: #444;
+    margin: 0 0 10px 0;
+    line-height: 1.1;
+}
+
+.hero p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    background-color: #00bcf2;
+    color: white;
+    text-decoration: none;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.hero-btn:hover { background-color: #24459a; }
+.hero-device {
+    max-width: 500px;
+}
+
+.hero-device img {
+    width: 100%;
+    height: auto;
+    transform: perspective(1000px) rotateY(-15deg);
+}
