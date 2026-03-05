@@ -1,0 +1,36 @@
+/* 1/3rd heroes with large heading font and white-light links */
+div.section_oly-aml-near,
+div.section_oly-aml-far,
+div.section_oly-aml-center
+{
+	width:33%;
+	padding-top: 10px;
+}
+
+div.section_oly-aml-far { left: 67%; }
+div.section_oly-aml-center { left: 33%; }
+
+div.section_oly-aml h3.title_section { font-size: 146%; }
+div.section_oly-aml h3.title_section .para { margin: 0px; }
+
+div.section_oly-aml-light a.navigationLink { color: #FFFFFF; } 
+/*
+     FILE ARCHIVED ON 07:47:41 Dec 01, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:51:30 Mar 05, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.75
+  exclusion.robots: 0.121
+  exclusion.robots.policy: 0.11
+  esindex: 0.01
+  cdx.remote: 35.252
+  LoadShardBlock: 155.624 (3)
+  PetaboxLoader3.datanode: 187.022 (5)
+  load_resource: 122.581 (2)
+  PetaboxLoader3.resolve: 89.299 (2)
+*/
